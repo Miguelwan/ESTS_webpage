@@ -107,3 +107,6 @@ dist
 
 #python
 *.ipynb
+
+#Mac
+**/.DS_Store
