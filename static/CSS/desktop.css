@@ -14,6 +14,10 @@
 
 /* Footer containers*/
 
+footer {
+    background-color: var(--footer-background-color);
+}
+
 .credits_container {
     display: none;
 }
