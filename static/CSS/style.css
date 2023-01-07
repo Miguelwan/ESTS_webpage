@@ -262,6 +262,7 @@ rect {
 .main_container {
     font-family: 'Cormorant';
     margin: 2rem 2rem 2rem 2rem;
+    padding-bottom: 2rem;
 }
 
 .main_container p {
