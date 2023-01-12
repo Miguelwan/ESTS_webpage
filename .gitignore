@@ -122,3 +122,5 @@ npm-debug.log
 package-lock.json
 webpack-stats.json
 backup*
+python/process_xlsx.py
+process_xlsx.sh
