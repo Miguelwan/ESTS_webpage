@@ -265,6 +265,13 @@ h1 {
 }
 
 
+/* Footer containers*/
+
+footer {
+    background-color: var(--footer-background-color);
+}
+
+
 /* Applies to all check inputs whose id starts with "menu_option_"*/
 #nav_menu input[id *="menu_option"]:checked + span label.reset_label {
     display: block;
