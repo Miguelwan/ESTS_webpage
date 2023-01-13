@@ -339,6 +339,12 @@ rect {
     background-color: white;
 }
 
+.flexrow {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
 /*==============================================================================================================*/
 /* Footer */
 

@@ -207,7 +207,7 @@ h1 {
 
 .right_container_small {
       display: flex;
-      flex-direction: row;
+      flex-direction: column;
       flex-wrap: wrap;
 }
 
