@@ -20,34 +20,17 @@
   font-family: 'Cormorant';
   font-style: normal;
   font-weight: 400;
- src: url(http://fonts.gstatic.com/s/cormorant/v21/H4c2BXOCl9bbnla_nHIA47NMUjsNbCVrFhFTc7Nq6y-r0Yr5dA.woff) format('woff');
+/* The following is an alterative to saving the fonts on github. It works, but we don't know if it's compliant with EU data protection regulations. We're not sure if the website might record IP addresses.
+src: url(http://fonts.gstatic.com/s/cormorant/v21/H4c2BXOCl9bbnla_nHIA47NMUjsNbCVrFhFTc7Nq6y-r0Yr5dA.woff) format('woff');
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-/*
-  src:
-    url("./fonts/cormorant/Cormorant-Regular.otf") format("opentype"),
-    url("./fonts/cormorant/Cormorant-Medium.otf") format("opentype"),
-    url('./fonts/cormorant/Cormorant-Bold.otf') format('opentype'), */
+*/
+   src: local('Cormorant'),
+    url("fonts/cormorant/Cormorant-Regular.otf") format("opentype"),
+    url("fonts/cormorant/Cormorant-Medium.otf") format("opentype"),
+    url("fonts/cormorant/Cormorant-Bold.otf") format("opentype"),
+    url("fonts/cormorant/CormorantGaramond-Bold.otf") format("opentype");
   }
-/*     url('..//fonts/cormorant/open-sans-v15-latin-regular.woff2') format('woff2'),
-    url('../fonts/cormorant/open-sans-v15-latin-regular.woff') format('woff'),
-    url('../fonts/cormorant/assets/fonts/open-sans-v15-latin-regular.ttf') format('truetype'),
-    url('../fonts/cormorant/open-sans-v15-latin-regular.svg#OpenSans') format('svg'); /* Legacy iOS */
-/* }
 
-
-/* open-sans-regular - latin */
-@font-face {
-	font-family: 'Open Sans';
-	font-style: normal;
-	font-weight: 400;
-	src: url('../LocalFontsPlugin/assets/fonts/open-sans-v15-latin-regular.eot'); /* IE9 Compat Modes */
-	src: local('Open Sans Regular'), local('OpenSans-Regular'),
-		url('../LocalFontsPlugin/assets/fonts/open-sans-v15-latin-regular.eot?#iefix') format('embedded-opentype'),
-		url('../LocalFontsPlugin/assets/fonts/open-sans-v15-latin-regular.woff2') format('woff2'),
-		url('../LocalFontsPlugin/assets/fonts/open-sans-v15-latin-regular.woff') format('woff'), url('../LocalFontsPlugin/assets/fonts/open-sans-v15-latin-regular.ttf')
-			format('truetype'),
-		url('../LocalFontsPlugin/assets/fonts/open-sans-v15-latin-regular.svg#OpenSans') format('svg'); /* Legacy iOS */
-}
 
 /* Color variables */
 
