@@ -99,3 +99,36 @@ header {
     display: none;
 }
 
+.nav_menu_home {
+    display: flex;
+    flex-direction: column;
+    gap: 0rem;
+    align-items: left;
+    margin-right: 1rem;
+    padding: 0.4rem;
+    padding-left: 1.4rem;
+}
+
+.nav_menu_home > li {
+    list-style-type: none;
+    display: none;
+    padding: 0.4rem;
+    min-width: 12rem;
+}
+
+
+#nav_checkbox:checked ~ form > ul.nav_menu_home li {
+    display: block;
+}
+
+#nav_checkbox:checked ~ label.nav_toggle .close {
+    display: inline;
+}
+
+#nav_checkbox:checked ~ label.nav_toggle .menu {
+    display: none;
+}
+
+#subnav_reset {
+    display:none;
+}
