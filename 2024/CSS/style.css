@@ -1,0 +1,101 @@
+
+
+:root {
+/* Header */
+    --title-color: black;
+    --text-header-color: black;
+    --text-color-hover: white;
+    --text-color-hover-body: #ffaa1d; /* Bright Yellow (Crayola) */
+    --nav-border-bottom: var(--nav-border-bottom); /* light grey */
+
+
+/* Text */
+    --text-color: black;
+    --text-color-section-heading: black;
+
+/* Footer */
+    --text-color-footer: black;
+
+/* Background */
+    --header-background-color: white;
+    --primary-background-color: white;
+    --secondary-background-color: #d9ebfb; /* very light blue */  /* #ffaa1d; Bright Yellow (Crayola) */
+    --footer-background-color: #fafafa;
+
+/* Subscribe form */
+    --subscribe-form-color: #2196f3; /* light blue */
+}
+
+
+/*====================================================================================*/
+
+/*  Global style */
+
+* { /* standard - do not change */
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-weight: lighter;
+    height: 100%;
+    font-size: 62.5%; /* standard - do not change */
+    color: var(--text-color);
+    background: var(--primary-background-color);
+}
+
+
+body {
+    font-size: 160%;
+    font-family: 'Cormorant';
+}
+
+header {
+    font-family: 'Cormorant';
+    font-size: 2.0rem;
+    color: var(--text-header-color);
+    background-color: var(--header-background-color);
+    padding-top: 2rem;
+}
+
+
+/* Navigation bar style */
+
+.nav {
+    border-bottom: 0.01rem solid #c9c9c9;
+}
+
+/* Phone */
+
+.nav_toggle {
+    position: static;
+    cursor: pointer;
+    margin: 0 1rem;
+}
+
+.nav_toggle svg {
+    width: 2rem;
+}
+
+.nav_toggle .menu {
+    border-radius: 9.2rem;
+    background: transparent;
+}
+
+.nav_toggle .close {
+    display: none;
+    border-radius: 9.2rem;
+    background: transparent;
+}
+
+.nav_toggle .close,
+.nav_toggle .menu {
+    margin-top: 1.3rem;
+    margin-left: 1.2rem;
+}
+
+.nav_checkbox {
+    display: none;
+}
+
